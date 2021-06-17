@@ -30,10 +30,6 @@ namespace ControllerPage
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.Combobox_MeasureType = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.Btn_CheckCom = new System.Windows.Forms.Button();
             this.Temp_TextBox = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -41,148 +37,118 @@ namespace ControllerPage
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.Btn_Check = new System.Windows.Forms.Button();
-            this.Curr_Measure_TextBox = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.Combobox_NumberGrain = new System.Windows.Forms.ComboBox();
-            this.Combobox_NumInterval = new System.Windows.Forms.ComboBox();
-            this.Curr_Interval_TextBox = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.Curr_Kernel_TextBox = new System.Windows.Forms.TextBox();
-            this.Current_Avg_TextBox = new System.Windows.Forms.TextBox();
-            this.Btn_Stop = new System.Windows.Forms.Button();
-            this.Combobox_TimeInterval = new System.Windows.Forms.ComboBox();
             this.Combobox_ComPort = new System.Windows.Forms.ComboBox();
-            this.comboBox_IPAddress = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.Btn_Start = new System.Windows.Forms.Button();
+            this.comboBox_IPAddress = new System.Windows.Forms.ComboBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.Btn_Stop = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Current_Avg_TextBox = new System.Windows.Forms.TextBox();
+            this.Curr_Kernel_TextBox = new System.Windows.Forms.TextBox();
+            this.Curr_Interval_TextBox = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.Curr_Measure_TextBox = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 6;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.20908F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.33692F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.87216F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.00737F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8.009708F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.1165F));
-            this.tableLayoutPanel1.Controls.Add(this.Combobox_MeasureType, 0, 7);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 5, 4);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox1, 0, 9);
-            this.tableLayoutPanel1.Controls.Add(this.textBox5, 0, 8);
+            this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel1.ColumnCount = 10;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.29052F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13.14985F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.737F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.32665F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.19771F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.17045F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 66F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 61F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 63F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 67F));
             this.tableLayoutPanel1.Controls.Add(this.Btn_CheckCom, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.Temp_TextBox, 4, 0);
-            this.tableLayoutPanel1.Controls.Add(this.textBox4, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.textBox2, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.textBox4, 6, 0);
+            this.tableLayoutPanel1.Controls.Add(this.textBox2, 5, 0);
             this.tableLayoutPanel1.Controls.Add(this.textBox1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.textBox3, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.Btn_Check, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.Curr_Measure_TextBox, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox14, 3, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox15, 3, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox6, 0, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBox7, 1, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBox8, 3, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBox9, 5, 6);
-            this.tableLayoutPanel1.Controls.Add(this.Combobox_NumberGrain, 3, 7);
-            this.tableLayoutPanel1.Controls.Add(this.Combobox_NumInterval, 1, 7);
-            this.tableLayoutPanel1.Controls.Add(this.Curr_Interval_TextBox, 4, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox13, 3, 2);
-            this.tableLayoutPanel1.Controls.Add(this.Curr_Kernel_TextBox, 4, 3);
-            this.tableLayoutPanel1.Controls.Add(this.Current_Avg_TextBox, 4, 4);
-            this.tableLayoutPanel1.Controls.Add(this.Btn_Stop, 5, 3);
-            this.tableLayoutPanel1.Controls.Add(this.Combobox_TimeInterval, 5, 7);
+            this.tableLayoutPanel1.Controls.Add(this.Btn_Check, 5, 1);
             this.tableLayoutPanel1.Controls.Add(this.Combobox_ComPort, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox_IPAddress, 5, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label1, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.Btn_Start, 5, 2);
-            this.tableLayoutPanel1.Controls.Add(this.button2, 5, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(-2, -5);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tableLayoutPanel1.Controls.Add(this.Btn_Start, 7, 2);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox_IPAddress, 7, 0);
+            this.tableLayoutPanel1.Controls.Add(this.textBox5, 7, 8);
+            this.tableLayoutPanel1.Controls.Add(this.Btn_Stop, 7, 5);
+            this.tableLayoutPanel1.Controls.Add(this.button1, 7, 1);
+            this.tableLayoutPanel1.Controls.Add(this.Current_Avg_TextBox, 6, 6);
+            this.tableLayoutPanel1.Controls.Add(this.Curr_Kernel_TextBox, 6, 4);
+            this.tableLayoutPanel1.Controls.Add(this.Curr_Interval_TextBox, 6, 2);
+            this.tableLayoutPanel1.Controls.Add(this.textBox14, 5, 4);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.Curr_Measure_TextBox, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.textBox15, 5, 6);
+            this.tableLayoutPanel1.Controls.Add(this.textBox11, 5, 5);
+            this.tableLayoutPanel1.Controls.Add(this.textBox12, 5, 7);
+            this.tableLayoutPanel1.Controls.Add(this.textBox10, 5, 2);
+            this.tableLayoutPanel1.Controls.Add(this.textBox13, 5, 3);
+            this.tableLayoutPanel1.Controls.Add(this.textBox8, 4, 9);
+            this.tableLayoutPanel1.Controls.Add(this.textBox7, 2, 9);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox1, 0, 8);
+            this.tableLayoutPanel1.Controls.Add(this.textBox6, 0, 9);
+            this.tableLayoutPanel1.Controls.Add(this.textBox9, 6, 9);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 4, 4);
+            this.tableLayoutPanel1.Controls.Add(this.button2, 0, 10);
+            this.tableLayoutPanel1.Controls.Add(this.button3, 2, 10);
+            this.tableLayoutPanel1.Controls.Add(this.button4, 4, 10);
+            this.tableLayoutPanel1.Controls.Add(this.button5, 6, 10);
+            this.tableLayoutPanel1.Controls.Add(this.button6, 8, 10);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(-1, -3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 10;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 12F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39F));
+            this.tableLayoutPanel1.RowCount = 13;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 54F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 46F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 46F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(824, 600);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 13F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(573, 413);
             this.tableLayoutPanel1.TabIndex = 0;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint_1);
-            // 
-            // Combobox_MeasureType
-            // 
-            this.Combobox_MeasureType.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Combobox_MeasureType.FormattingEnabled = true;
-            this.Combobox_MeasureType.Location = new System.Drawing.Point(4, 276);
-            this.Combobox_MeasureType.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Combobox_MeasureType.Name = "Combobox_MeasureType";
-            this.Combobox_MeasureType.Size = new System.Drawing.Size(198, 33);
-            this.Combobox_MeasureType.TabIndex = 13;
-            this.Combobox_MeasureType.Text = "--Choose Product--";
-            this.Combobox_MeasureType.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
-            // 
-            // button1
-            // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(653, 180);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 35);
-            this.button1.TabIndex = 39;
-            this.button1.Text = "Check Com";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(4, 359);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(0, 33);
-            this.comboBox1.TabIndex = 38;
-            this.comboBox1.Text = "--Choose Option--";
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(4, 322);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(0, 28);
-            this.textBox5.TabIndex = 37;
-            this.textBox5.Text = "Option";
             // 
             // Btn_CheckCom
             // 
             this.Btn_CheckCom.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.tableLayoutPanel1.SetColumnSpan(this.Btn_CheckCom, 2);
             this.Btn_CheckCom.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_CheckCom.Location = new System.Drawing.Point(416, 45);
-            this.Btn_CheckCom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Btn_CheckCom.Location = new System.Drawing.Point(148, 30);
             this.Btn_CheckCom.Name = "Btn_CheckCom";
-            this.Btn_CheckCom.Size = new System.Drawing.Size(229, 35);
+            this.Btn_CheckCom.Size = new System.Drawing.Size(99, 45);
             this.Btn_CheckCom.TabIndex = 7;
-            this.Btn_CheckCom.Text = "CHECK_TEMP";
+            this.Btn_CheckCom.Text = "CHECK";
             this.Btn_CheckCom.UseVisualStyleBackColor = true;
             this.Btn_CheckCom.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -192,10 +158,9 @@ namespace ControllerPage
             this.Temp_TextBox.BackColor = System.Drawing.SystemColors.Control;
             this.Temp_TextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Temp_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Temp_TextBox.Location = new System.Drawing.Point(588, 7);
-            this.Temp_TextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Temp_TextBox.Location = new System.Drawing.Point(193, 4);
             this.Temp_TextBox.Name = "Temp_TextBox";
-            this.Temp_TextBox.Size = new System.Drawing.Size(45, 25);
+            this.Temp_TextBox.Size = new System.Drawing.Size(17, 17);
             this.Temp_TextBox.TabIndex = 4;
             this.Temp_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Temp_TextBox.TextChanged += new System.EventHandler(this.Temp_Tex_TextChanged);
@@ -207,10 +172,9 @@ namespace ControllerPage
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.textBox4.Location = new System.Drawing.Point(327, 10);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox4.Location = new System.Drawing.Point(316, 6);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(63, 19);
+            this.textBox4.Size = new System.Drawing.Size(37, 13);
             this.textBox4.TabIndex = 3;
             this.textBox4.Text = "Online";
             // 
@@ -220,10 +184,9 @@ namespace ControllerPage
             this.textBox2.BackColor = System.Drawing.SystemColors.Control;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(210, 6);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox2.Location = new System.Drawing.Point(253, 3);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(80, 28);
+            this.textBox2.Size = new System.Drawing.Size(53, 19);
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = "Status";
             // 
@@ -232,11 +195,11 @@ namespace ControllerPage
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox1.BackColor = System.Drawing.SystemColors.Control;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tableLayoutPanel1.SetColumnSpan(this.textBox1, 3);
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(4, 6);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox1.Location = new System.Drawing.Point(3, 3);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(150, 28);
+            this.textBox1.Size = new System.Drawing.Size(100, 19);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "Comport";
             // 
@@ -246,52 +209,180 @@ namespace ControllerPage
             this.textBox3.BackColor = System.Drawing.SystemColors.Control;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(416, 6);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox3.Location = new System.Drawing.Point(148, 3);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(150, 28);
+            this.textBox3.Size = new System.Drawing.Size(39, 19);
             this.textBox3.TabIndex = 2;
-            this.textBox3.Text = "Temperature";
+            this.textBox3.Text = "Temp";
             // 
             // Btn_Check
             // 
             this.Btn_Check.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.tableLayoutPanel1.SetColumnSpan(this.Btn_Check, 2);
             this.Btn_Check.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Check.Location = new System.Drawing.Point(210, 45);
-            this.Btn_Check.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Btn_Check.Location = new System.Drawing.Point(253, 31);
             this.Btn_Check.Name = "Btn_Check";
-            this.Btn_Check.Size = new System.Drawing.Size(161, 35);
+            this.Btn_Check.Size = new System.Drawing.Size(108, 43);
             this.Btn_Check.TabIndex = 6;
             this.Btn_Check.Text = "CHECK";
             this.Btn_Check.UseVisualStyleBackColor = true;
             this.Btn_Check.Click += new System.EventHandler(this.Btn_Check_Click);
             // 
-            // Curr_Measure_TextBox
+            // Combobox_ComPort
             // 
-            this.Curr_Measure_TextBox.BackColor = System.Drawing.SystemColors.Control;
-            this.Curr_Measure_TextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Curr_Measure_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Curr_Measure_TextBox.Location = new System.Drawing.Point(4, 90);
-            this.Curr_Measure_TextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Curr_Measure_TextBox.Name = "Curr_Measure_TextBox";
-            this.tableLayoutPanel1.SetRowSpan(this.Curr_Measure_TextBox, 2);
-            this.Curr_Measure_TextBox.Size = new System.Drawing.Size(198, 91);
-            this.Curr_Measure_TextBox.TabIndex = 21;
-            this.Curr_Measure_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.Curr_Measure_TextBox.TextChanged += new System.EventHandler(this.Curr_Measure_TextBox_TextChanged);
+            this.tableLayoutPanel1.SetColumnSpan(this.Combobox_ComPort, 3);
+            this.Combobox_ComPort.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Combobox_ComPort.FormattingEnabled = true;
+            this.Combobox_ComPort.Items.AddRange(new object[] {
+            "Interval",
+            "Fixed"});
+            this.Combobox_ComPort.Location = new System.Drawing.Point(3, 29);
+            this.Combobox_ComPort.Name = "Combobox_ComPort";
+            this.Combobox_ComPort.Size = new System.Drawing.Size(131, 24);
+            this.Combobox_ComPort.TabIndex = 5;
+            this.Combobox_ComPort.Tag = "";
+            this.Combobox_ComPort.Text = "--Choose Comport--";
+            this.Combobox_ComPort.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // Btn_Start
+            // 
+            this.Btn_Start.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.tableLayoutPanel1.SetColumnSpan(this.Btn_Start, 3);
+            this.Btn_Start.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Start.Location = new System.Drawing.Point(382, 83);
+            this.Btn_Start.Name = "Btn_Start";
+            this.tableLayoutPanel1.SetRowSpan(this.Btn_Start, 2);
+            this.Btn_Start.Size = new System.Drawing.Size(172, 65);
+            this.Btn_Start.TabIndex = 28;
+            this.Btn_Start.Text = "START";
+            this.Btn_Start.UseVisualStyleBackColor = true;
+            this.Btn_Start.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // comboBox_IPAddress
+            // 
+            this.comboBox_IPAddress.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.tableLayoutPanel1.SetColumnSpan(this.comboBox_IPAddress, 3);
+            this.comboBox_IPAddress.FormattingEnabled = true;
+            this.comboBox_IPAddress.Location = new System.Drawing.Point(381, 3);
+            this.comboBox_IPAddress.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox_IPAddress.Name = "comboBox_IPAddress";
+            this.comboBox_IPAddress.Size = new System.Drawing.Size(94, 21);
+            this.comboBox_IPAddress.TabIndex = 43;
+            this.comboBox_IPAddress.Text = "-- IP Address --";
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(382, 283);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(0, 19);
+            this.textBox5.TabIndex = 37;
+            this.textBox5.Text = "Option";
+            // 
+            // Btn_Stop
+            // 
+            this.Btn_Stop.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.tableLayoutPanel1.SetColumnSpan(this.Btn_Stop, 3);
+            this.Btn_Stop.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Stop.Location = new System.Drawing.Point(382, 179);
+            this.Btn_Stop.Name = "Btn_Stop";
+            this.tableLayoutPanel1.SetRowSpan(this.Btn_Stop, 2);
+            this.Btn_Stop.Size = new System.Drawing.Size(172, 59);
+            this.Btn_Stop.TabIndex = 29;
+            this.Btn_Stop.Text = "STOP";
+            this.Btn_Stop.UseVisualStyleBackColor = true;
+            this.Btn_Stop.Click += new System.EventHandler(this.Btn_Stop_Click);
+            // 
+            // button1
+            // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.tableLayoutPanel1.SetColumnSpan(this.button1, 3);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(382, 35);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(168, 36);
+            this.button1.TabIndex = 39;
+            this.button1.Text = "Check Com";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Current_Avg_TextBox
+            // 
+            this.Current_Avg_TextBox.BackColor = System.Drawing.SystemColors.Control;
+            this.Current_Avg_TextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Current_Avg_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Current_Avg_TextBox.Location = new System.Drawing.Point(316, 216);
+            this.Current_Avg_TextBox.Name = "Current_Avg_TextBox";
+            this.tableLayoutPanel1.SetRowSpan(this.Current_Avg_TextBox, 2);
+            this.Current_Avg_TextBox.Size = new System.Drawing.Size(49, 37);
+            this.Current_Avg_TextBox.TabIndex = 27;
+            this.Current_Avg_TextBox.Text = "12";
+            // 
+            // Curr_Kernel_TextBox
+            // 
+            this.Curr_Kernel_TextBox.BackColor = System.Drawing.SystemColors.Control;
+            this.Curr_Kernel_TextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Curr_Kernel_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Curr_Kernel_TextBox.Location = new System.Drawing.Point(316, 154);
+            this.Curr_Kernel_TextBox.Name = "Curr_Kernel_TextBox";
+            this.tableLayoutPanel1.SetRowSpan(this.Curr_Kernel_TextBox, 2);
+            this.Curr_Kernel_TextBox.Size = new System.Drawing.Size(55, 37);
+            this.Curr_Kernel_TextBox.TabIndex = 26;
+            this.Curr_Kernel_TextBox.Text = "11";
+            // 
+            // Curr_Interval_TextBox
+            // 
+            this.Curr_Interval_TextBox.BackColor = System.Drawing.SystemColors.Control;
+            this.Curr_Interval_TextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Curr_Interval_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Curr_Interval_TextBox.Location = new System.Drawing.Point(316, 83);
+            this.Curr_Interval_TextBox.Name = "Curr_Interval_TextBox";
+            this.tableLayoutPanel1.SetRowSpan(this.Curr_Interval_TextBox, 2);
+            this.Curr_Interval_TextBox.Size = new System.Drawing.Size(55, 37);
+            this.Curr_Interval_TextBox.TabIndex = 25;
+            this.Curr_Interval_TextBox.Text = "10";
             // 
             // textBox14
             // 
             this.textBox14.BackColor = System.Drawing.SystemColors.Control;
             this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(416, 135);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox14.Location = new System.Drawing.Point(253, 154);
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(164, 28);
+            this.textBox14.Size = new System.Drawing.Size(57, 19);
             this.textBox14.TabIndex = 23;
-            this.textBox14.Text = "Kernel Counter";
+            this.textBox14.Text = "Kernel";
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.tableLayoutPanel1.SetColumnSpan(this.label2, 5);
+            this.label2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(15, 82);
+            this.label2.Margin = new System.Windows.Forms.Padding(0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(220, 20);
+            this.label2.TabIndex = 41;
+            this.label2.Text = "Current Interval Measurement";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            // 
+            // Curr_Measure_TextBox
+            // 
+            this.Curr_Measure_TextBox.BackColor = System.Drawing.SystemColors.Control;
+            this.Curr_Measure_TextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tableLayoutPanel1.SetColumnSpan(this.Curr_Measure_TextBox, 4);
+            this.Curr_Measure_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 70F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Curr_Measure_TextBox.Location = new System.Drawing.Point(3, 108);
+            this.Curr_Measure_TextBox.Name = "Curr_Measure_TextBox";
+            this.tableLayoutPanel1.SetRowSpan(this.Curr_Measure_TextBox, 2);
+            this.Curr_Measure_TextBox.Size = new System.Drawing.Size(184, 106);
+            this.Curr_Measure_TextBox.TabIndex = 21;
+            this.Curr_Measure_TextBox.Text = "29.9";
+            this.Curr_Measure_TextBox.TextChanged += new System.EventHandler(this.Curr_Measure_TextBox_TextChanged);
             // 
             // textBox15
             // 
@@ -299,242 +390,211 @@ namespace ControllerPage
             this.textBox15.BackColor = System.Drawing.SystemColors.Control;
             this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(416, 180);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox15.Location = new System.Drawing.Point(253, 216);
             this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(157, 28);
+            this.textBox15.Size = new System.Drawing.Size(57, 19);
             this.textBox15.TabIndex = 24;
             this.textBox15.Text = "Average ";
             this.textBox15.TextChanged += new System.EventHandler(this.textBox15_TextChanged);
             // 
-            // textBox6
+            // textBox11
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(4, 237);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(150, 28);
-            this.textBox6.TabIndex = 8;
-            this.textBox6.Text = "Product";
+            this.textBox11.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox11.Location = new System.Drawing.Point(253, 179);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(57, 19);
+            this.textBox11.TabIndex = 45;
+            this.textBox11.Text = "Counter";
             // 
-            // textBox7
+            // textBox12
             // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tableLayoutPanel1.SetColumnSpan(this.textBox7, 2);
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(210, 237);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(197, 28);
-            this.textBox7.TabIndex = 9;
-            this.textBox7.Text = "Number of Interval";
+            this.textBox12.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox12.Location = new System.Drawing.Point(253, 244);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(57, 19);
+            this.textBox12.TabIndex = 46;
+            this.textBox12.Text = "Moisture";
             // 
-            // textBox8
+            // textBox10
             // 
-            this.textBox8.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tableLayoutPanel1.SetColumnSpan(this.textBox8, 2);
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(416, 237);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(194, 28);
-            this.textBox8.TabIndex = 10;
-            this.textBox8.Text = "Number of Pcs";
-            // 
-            // textBox9
-            // 
-            this.textBox9.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(653, 237);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(167, 28);
-            this.textBox9.TabIndex = 11;
-            this.textBox9.Text = "Waiting Time";
-            // 
-            // Combobox_NumberGrain
-            // 
-            this.tableLayoutPanel1.SetColumnSpan(this.Combobox_NumberGrain, 2);
-            this.Combobox_NumberGrain.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Combobox_NumberGrain.FormattingEnabled = true;
-            this.Combobox_NumberGrain.Location = new System.Drawing.Point(416, 276);
-            this.Combobox_NumberGrain.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Combobox_NumberGrain.Name = "Combobox_NumberGrain";
-            this.Combobox_NumberGrain.Size = new System.Drawing.Size(194, 33);
-            this.Combobox_NumberGrain.TabIndex = 15;
-            this.Combobox_NumberGrain.Text = "--Choose Pieces--";
-            // 
-            // Combobox_NumInterval
-            // 
-            this.tableLayoutPanel1.SetColumnSpan(this.Combobox_NumInterval, 2);
-            this.Combobox_NumInterval.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Combobox_NumInterval.FormattingEnabled = true;
-            this.Combobox_NumInterval.Location = new System.Drawing.Point(210, 276);
-            this.Combobox_NumInterval.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Combobox_NumInterval.Name = "Combobox_NumInterval";
-            this.Combobox_NumInterval.Size = new System.Drawing.Size(197, 33);
-            this.Combobox_NumInterval.TabIndex = 14;
-            this.Combobox_NumInterval.Text = "--Choose Interval--";
-            // 
-            // Curr_Interval_TextBox
-            // 
-            this.Curr_Interval_TextBox.BackColor = System.Drawing.SystemColors.Control;
-            this.Curr_Interval_TextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Curr_Interval_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Curr_Interval_TextBox.Location = new System.Drawing.Point(588, 90);
-            this.Curr_Interval_TextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Curr_Interval_TextBox.Name = "Curr_Interval_TextBox";
-            this.Curr_Interval_TextBox.Size = new System.Drawing.Size(44, 28);
-            this.Curr_Interval_TextBox.TabIndex = 25;
+            this.textBox10.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.Location = new System.Drawing.Point(253, 83);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(57, 19);
+            this.textBox10.TabIndex = 47;
+            this.textBox10.Text = "Interval";
             // 
             // textBox13
             // 
             this.textBox13.BackColor = System.Drawing.SystemColors.Control;
             this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(412, 85);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox13.Location = new System.Drawing.Point(253, 108);
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(169, 28);
-            this.textBox13.TabIndex = 22;
-            this.textBox13.Text = "Interval Number";
+            this.textBox13.Size = new System.Drawing.Size(57, 19);
+            this.textBox13.TabIndex = 48;
+            this.textBox13.Text = "Number";
             // 
-            // Curr_Kernel_TextBox
+            // textBox8
             // 
-            this.Curr_Kernel_TextBox.BackColor = System.Drawing.SystemColors.Control;
-            this.Curr_Kernel_TextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Curr_Kernel_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Curr_Kernel_TextBox.Location = new System.Drawing.Point(588, 135);
-            this.Curr_Kernel_TextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Curr_Kernel_TextBox.Name = "Curr_Kernel_TextBox";
-            this.Curr_Kernel_TextBox.Size = new System.Drawing.Size(44, 28);
-            this.Curr_Kernel_TextBox.TabIndex = 26;
+            this.textBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox8.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tableLayoutPanel1.SetColumnSpan(this.textBox8, 2);
+            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.Location = new System.Drawing.Point(193, 296);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(117, 13);
+            this.textBox8.TabIndex = 10;
+            this.textBox8.Text = "Number of Pcs / Interval";
             // 
-            // Current_Avg_TextBox
+            // textBox7
             // 
-            this.Current_Avg_TextBox.BackColor = System.Drawing.SystemColors.Control;
-            this.Current_Avg_TextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Current_Avg_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Current_Avg_TextBox.Location = new System.Drawing.Point(588, 180);
-            this.Current_Avg_TextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Current_Avg_TextBox.Name = "Current_Avg_TextBox";
-            this.Current_Avg_TextBox.Size = new System.Drawing.Size(57, 16);
-            this.Current_Avg_TextBox.TabIndex = 27;
+            this.textBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox7.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tableLayoutPanel1.SetColumnSpan(this.textBox7, 2);
+            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.Location = new System.Drawing.Point(92, 296);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(95, 13);
+            this.textBox7.TabIndex = 9;
+            this.textBox7.Text = "Number of Interval";
             // 
-            // Btn_Stop
+            // comboBox1
             // 
-            this.Btn_Stop.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.Btn_Stop.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Stop.Location = new System.Drawing.Point(653, 135);
-            this.Btn_Stop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Btn_Stop.Name = "Btn_Stop";
-            this.Btn_Stop.Size = new System.Drawing.Size(138, 35);
-            this.Btn_Stop.TabIndex = 29;
-            this.Btn_Stop.Text = "STOP";
-            this.Btn_Stop.UseVisualStyleBackColor = true;
-            this.Btn_Stop.Click += new System.EventHandler(this.Btn_Stop_Click);
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(3, 283);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(0, 24);
+            this.comboBox1.TabIndex = 38;
+            this.comboBox1.Text = "--Choose Option--";
             // 
-            // Combobox_TimeInterval
+            // textBox6
             // 
-            this.Combobox_TimeInterval.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Combobox_TimeInterval.FormattingEnabled = true;
-            this.Combobox_TimeInterval.Location = new System.Drawing.Point(653, 276);
-            this.Combobox_TimeInterval.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Combobox_TimeInterval.Name = "Combobox_TimeInterval";
-            this.Combobox_TimeInterval.Size = new System.Drawing.Size(167, 33);
-            this.Combobox_TimeInterval.TabIndex = 16;
-            this.Combobox_TimeInterval.Text = "--Choose Time--";
+            this.textBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox6.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tableLayoutPanel1.SetColumnSpan(this.textBox6, 2);
+            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(24, 296);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(41, 13);
+            this.textBox6.TabIndex = 8;
+            this.textBox6.Text = "Product";
             // 
-            // Combobox_ComPort
+            // textBox9
             // 
-            this.Combobox_ComPort.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Combobox_ComPort.FormattingEnabled = true;
-            this.Combobox_ComPort.Items.AddRange(new object[] {
-            "Interval",
-            "Fixed"});
-            this.Combobox_ComPort.Location = new System.Drawing.Point(4, 45);
-            this.Combobox_ComPort.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Combobox_ComPort.Name = "Combobox_ComPort";
-            this.Combobox_ComPort.Size = new System.Drawing.Size(198, 33);
-            this.Combobox_ComPort.TabIndex = 5;
-            this.Combobox_ComPort.Tag = "";
-            this.Combobox_ComPort.Text = "--Choose Comport--";
-            this.Combobox_ComPort.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // comboBox_IPAddress
-            // 
-            this.comboBox_IPAddress.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.comboBox_IPAddress.FormattingEnabled = true;
-            this.comboBox_IPAddress.Location = new System.Drawing.Point(652, 9);
-            this.comboBox_IPAddress.Name = "comboBox_IPAddress";
-            this.comboBox_IPAddress.Size = new System.Drawing.Size(139, 28);
-            this.comboBox_IPAddress.TabIndex = 36;
-            this.comboBox_IPAddress.Text = "-- IP Address --";
+            this.textBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox9.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tableLayoutPanel1.SetColumnSpan(this.textBox9, 2);
+            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.Location = new System.Drawing.Point(342, 296);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(68, 13);
+            this.textBox9.TabIndex = 11;
+            this.textBox9.Text = "Waiting Time";
+            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.tableLayoutPanel1.SetColumnSpan(this.label1, 2);
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(209, 85);
+            this.label1.BackColor = System.Drawing.SystemColors.Control;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(192, 151);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.tableLayoutPanel1.SetRowSpan(this.label1, 2);
-            this.label1.Size = new System.Drawing.Size(110, 90);
+            this.label1.Size = new System.Drawing.Size(56, 51);
             this.label1.TabIndex = 40;
             this.label1.Text = "%";
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label2.AutoSize = true;
-            this.tableLayoutPanel1.SetColumnSpan(this.label2, 3);
-            this.label2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(0, 191);
-            this.label2.Margin = new System.Windows.Forms.Padding(0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(328, 29);
-            this.label2.TabIndex = 41;
-            this.label2.Text = "Current Interval Measurement";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            // 
-            // Btn_Start
-            // 
-            this.Btn_Start.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.Btn_Start.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Start.Location = new System.Drawing.Point(653, 90);
-            this.Btn_Start.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Btn_Start.Name = "Btn_Start";
-            this.Btn_Start.Size = new System.Drawing.Size(138, 35);
-            this.Btn_Start.TabIndex = 28;
-            this.Btn_Start.Text = "START";
-            this.Btn_Start.UseVisualStyleBackColor = true;
-            this.Btn_Start.Click += new System.EventHandler(this.button3_Click);
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(652, 43);
+            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tableLayoutPanel1.SetColumnSpan(this.button2, 2);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(3, 320);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(139, 35);
-            this.button2.TabIndex = 42;
-            this.button2.Text = "OPTION";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            this.tableLayoutPanel1.SetRowSpan(this.button2, 4);
+            this.button2.Size = new System.Drawing.Size(83, 90);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Corn";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_2);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tableLayoutPanel1.SetColumnSpan(this.button3, 2);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(92, 320);
+            this.button3.Name = "button3";
+            this.tableLayoutPanel1.SetRowSpan(this.button3, 4);
+            this.button3.Size = new System.Drawing.Size(95, 90);
+            this.button3.TabIndex = 49;
+            this.button3.Text = "10";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tableLayoutPanel1.SetColumnSpan(this.button4, 2);
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(193, 320);
+            this.button4.Name = "button4";
+            this.tableLayoutPanel1.SetRowSpan(this.button4, 4);
+            this.button4.Size = new System.Drawing.Size(117, 90);
+            this.button4.TabIndex = 50;
+            this.button4.Text = "10";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tableLayoutPanel1.SetColumnSpan(this.button5, 2);
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(316, 320);
+            this.button5.Name = "button5";
+            this.tableLayoutPanel1.SetRowSpan(this.button5, 4);
+            this.button5.Size = new System.Drawing.Size(121, 90);
+            this.button5.TabIndex = 51;
+            this.button5.Text = "1 min";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tableLayoutPanel1.SetColumnSpan(this.button6, 2);
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(443, 320);
+            this.button6.Name = "button6";
+            this.tableLayoutPanel1.SetRowSpan(this.button6, 4);
+            this.button6.Size = new System.Drawing.Size(115, 90);
+            this.button6.TabIndex = 52;
+            this.button6.Text = "Options";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(866, 628);
+            this.ClientSize = new System.Drawing.Size(583, 416);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -552,18 +612,12 @@ namespace ControllerPage
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button Btn_Check;
-        private System.Windows.Forms.ComboBox Combobox_NumInterval;
-        private System.Windows.Forms.ComboBox Combobox_NumberGrain;
-        private System.Windows.Forms.ComboBox Combobox_TimeInterval;
         private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.Button Btn_Start;
         private System.Windows.Forms.Button Btn_Stop;
         private System.Windows.Forms.ComboBox Combobox_ComPort;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox Curr_Measure_TextBox;
-        private System.Windows.Forms.ComboBox Combobox_MeasureType;
-        private System.Windows.Forms.ComboBox comboBox_IPAddress;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox Temp_TextBox;
@@ -574,11 +628,20 @@ namespace ControllerPage
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.TextBox Current_Avg_TextBox;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox comboBox_IPAddress;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
