@@ -61,7 +61,7 @@ namespace ControllerPage
             InitializeComponent();
             data_initiation_input();
 
-            
+
             /*
             // Open Port
 
@@ -129,7 +129,7 @@ namespace ControllerPage
 
             foreach (string TimeInter in List_TimeInter)
             {
-                Combobox_TimeInterval.Items.Add(TimeInter);
+                Combobox_timeinterval.Items.Add(TimeInter);
             }
 
             foreach (int i in Enum.GetValues(typeof(number_grain)))
@@ -218,7 +218,7 @@ namespace ControllerPage
         {
             // get data from ComboBox
             // 0.5 min -> this is description. need to get value
-            string combox_timeinteval = Combobox_TimeInterval.SelectedItem.ToString();
+            string combox_timeinteval = Combobox_timeinterval.SelectedItem.ToString();
             var result = Sensor_input_Helper.GetEnumValueFromDescription<Time_Interval>(combox_timeinteval);
             delay = ((int)(result)) * 60;
 
@@ -719,31 +719,97 @@ namespace ControllerPage
 
         }
 
-        private void button2_Click_2(object sender, EventArgs e)
+        public void button2_Click_2(object sender, EventArgs e)
         {
-            Productselection F2 = new Productselection();
-            F2.ShowDialog();
+            // FormProductselection F2 = new FormProductselection();
+            //  F2.ShowDialog();
+            using (var form = new FormProductselection())
+            {
+                var result = form.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    string val = form.Productselection;            //values preserved after close
+                    //Do something here with these values
+
+                    //for example
+                    ButtonProduct.Text = val;
+                }
+            }
         }
 
-        private void button3_Click_1(object sender, EventArgs e)
+        public void button3_Click_1(object sender, EventArgs e)
         {
+            //FormNumberinterval F2 = new FormNumberinterval();
+            //F2.ShowDialog();
+            using (var form = new FormNumberinterval())
+            {
+                var result = form.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    decimal val = form.Intervalselection;            //values preserved after close
+                    //Do something here with these values
 
+                    //for example
+                    ButtonNumInterval.Text = val.ToString();
+                }
+            }
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        public void button4_Click(object sender, EventArgs e)
         {
+            //FormNumberpcsinterval F2 = new FormNumberpcsinterval();
+            //F2.ShowDialog();
+            using (var form = new FormNumberpcsinterval())
+            {
+                var result = form.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    string val = form.Pcsselection;            //values preserved after close
+                    //Do something here with these values
 
+                    //for example
+                    ButtonNumPcs.Text = val;
+                }
+            }
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        public void button5_Click(object sender, EventArgs e)
         {
+            //FormWaitinginterval F2 = new FormWaitinginterval();
+            //F2.ShowDialog();
+            using (var form = new FormWaitinginterval())
+            {
+                var result = form.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    decimal val = form.WaitingIntervalselection;            //values preserved after close
+                    //Do something here with these values
 
+                    //for example
+                    ButtonWaitingTime.Text = val.ToString()+" min";
+                }
+            }
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        public void button6_Click(object sender, EventArgs e)
         {
             Form2 F2 = new Form2();
             F2.ShowDialog();
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Combobox_Mode_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
